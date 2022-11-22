@@ -130,3 +130,6 @@ STATICFILES_DIRS = [
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # DATE_INPUT_FORMATS = ['%m-%d-%Y']
+
+MEDIA_ROOT = BASE_DIR/'uploads'
+MEDIA_URL = '/files/'
